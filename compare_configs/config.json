@@ -1,0 +1,19 @@
+{
+  "n_episodes": 50000,
+  "max_steps": 200,
+  "seed_start": 0,
+  "seed_end": 40000,
+  "verbose": true,
+  "reward_step": -5,
+  "reward_delivery": 20,
+  "reward_illegal": -1,
+  "learning_rate": 0.01,
+  "value_lr": 0.1,
+  "lr_decay": 0.99999,
+  "discount_factor": 0.99,
+  "entropy_coef": 0.1,
+  "epsilon": 0.1,
+  "epsilon_decay": 0.999,
+  "test_episodes": 100,
+  "test_seed_start": 420000
+}

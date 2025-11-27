@@ -1,0 +1,11 @@
+{
+  "n_episodes": 50000,
+  "reward_step": -10,
+  "reward_delivery": 50,
+  "reward_illegal": 0,
+  "learning_rate": 0.00375,
+  "value_lr": 0.5,
+  "lr_decay": 0.9999,
+  "discount_factor": 0.99,
+  "entropy_coef": 0.01
+}
